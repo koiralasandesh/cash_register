@@ -15,10 +15,6 @@ class item:
     def display(self):
         print ("Item Name: \t\t"+ self.name)
         print("Item Code: \t\t"+ self.code)
-        print("Item Description: \n" + self.desc)
+        print("Item Description:\t" + self.desc)
         print("Item Price: \t\t"+ str(self.price))
-        print ("Item Inventory: \t\t"+str((self.inventory))
-        
-
-
-
+        print ("Item Inventory: \t"+str(self.inventory))

@@ -1,4 +1,4 @@
-from store_item import item
+from store_item import *
 
 inventory = []
 
@@ -23,5 +23,3 @@ def print_inventory():
     for x in inventory:
         x.display()
 
-add_item()
-print_inventory()
